@@ -1,0 +1,381 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap");
+
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#cat {
+    transform: scaleX(-1);
+    position: absolute;
+    top: 43.5%;
+    left: 20%;
+    width: 400px;
+    height: auto;
+}
+
+#cat2 {
+    position: absolute;
+    top: 43.5%;
+    right: 20%;
+    width: 400px;
+    height: auto;
+}
+
+#targetImage {
+    width: 100%;
+    /* Ocupa toda a largura disponível */
+    max-width: 500px;
+    /* Não passa de 500px */
+    height: auto;
+    padding: 32px;
+}
+
+body {
+    display: flex;
+    background-color: #181818;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    overflow: auto;
+    position: relative;
+}
+
+.conteiner-dias p:last-child {
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: white;
+}
+
+.centro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.conteiner-itens {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+
+.conteiner {
+    width: 80px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 3px solid #18191f;
+    background: #fff3f8;
+    box-shadow: 0px 6px 0px 0px #18191f;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    color: #fff;
+    display: flex;
+    font-family: Montserrat;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 54px;
+    position: relative;
+    top: 1%;
+    margin: 25px;
+}
+
+.dedicado {
+    color: var(--colors-black, #18191f);
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+
+    /* 12 - Medium */
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    /* 133.333% */
+    display: inline-flex;
+    padding: 10px 16px;
+    align-items: flex-start;
+
+    gap: 20px;
+    border-radius: 12px;
+    border: 2px solid var(--colors-black, #18191f);
+    background: var(--colors-yellow, #ffbd12);
+
+    /* Shadow / 200 */
+    box-shadow: 0px 2px 0px 0px #18191f;
+}
+
+.conteiner-dia {
+    width: 138px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 3px solid #18191f;
+    background: #fff3f8;
+    box-shadow: 0px 6px 0px 0px #18191f;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+.conteiner-iten {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+.conteinerdias p:last-child{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 5px;
+    color: white;
+}
+
+@media (max-width: 1440px) {
+    h1 {
+        color: #fff;
+        display: flex;
+        font-family: Montserrat;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 54px;
+        position: relative;
+        top: 1%;
+        margin: 25px;
+    }
+
+    .conteiner-dias p:last-child {
+        font-size: 10px;
+    }
+
+    #targetImage {
+        width: 47%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    #cat {
+        transform: scaleX(-1);
+        position: absolute;
+        top: 36.5%;
+        left: 11%;
+        width: 27%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    #cat2 {
+        position: absolute;
+        top: 36.5%;
+        right: 11%;
+        width: 27%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    .dedicado {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        color: #fff;
+        display: flex;
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 54px;
+        position: relative;
+        top: 1%;
+        margin: 25px;
+    }
+
+    #cat {
+        transform: scaleX(-1);
+        position: absolute;
+        top: 43.5%;
+        left: 0%;
+        width: 35%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    #cat2 {
+        position: absolute;
+        top: 43.5%;
+        right: 0%;
+        width: 35%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    .dedicado {
+        font-size: 7px;
+    }
+
+    .conteiner {
+        width: 60px;
+        padding: 10px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 21px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteiner-itens {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .conteiner {
+        width: 50px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .conteiner-dias p:last-child {
+        font-size: 10px;
+    }
+
+    #targetImage {
+        width: 47%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    #cat {
+        transform: scaleX(-1);
+        position: absolute;
+        top: 50.5%;
+        left: 0%;
+        width: 35%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    #cat2 {
+        position: absolute;
+        top: 50.5%;
+        right: 0%;
+        width: 35%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    .dedicado {
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 425px) {
+    #conteiner-dia {
+    width: 80px;
+    padding: 20px;
+    border-radius: 16px;
+    border: 3px solid #18191f;
+    background: #fff3f8;
+    box-shadow: 0px 6px 0px 0px #18191f;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+    h1 {
+        font-size: 21px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .conteiner-itens {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin: 10px;
+    }
+
+    .conteiner {
+        width: 50px;
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .conteiner-dias p:last-child {
+        font-size: 10px;
+    }
+
+    #targetImage {
+        width: 47%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    #cat {
+        transform: scaleX(-1);
+        position: absolute;
+        top: 50.5%;
+        left: 0%;
+        width: 35%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    #cat2 {
+        position: absolute;
+        top: 50.5%;
+        right: 0%;
+        width: 35%;
+        /* Ocupa toda a largura disponível */
+        max-width: 500px;
+        /* Não passa de 500px */
+        height: auto;
+    }
+
+    .dedicado {
+        font-size: 7px;
+    }
+}
