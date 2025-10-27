@@ -92,6 +92,7 @@ h1 {
     position: relative;
     top: 1%;
     margin: 25px;
+    justify-content: center;
 }
 
 .dedicado {
