@@ -24,7 +24,7 @@ function iniciarRelogio() {
         mes = mes < 10 ? "0" + mes : mes;
 
         const dataCompleta = `${dia}/${mes}/${ano}`;
-        // --- FIM NOVO ---
+       
 
         // Exibe a hora atual na página
         document.getElementById("horas").innerHTML = horas;
@@ -61,3 +61,53 @@ iniciarRelogio();
 
 // Chama a função para trocar a imagem
 trocarImagemPorData(dataEspecifica, novaImagem);
+
+
+
+
+const LISTA_IMAGENS_URL = [
+    'Midia/Soadalbum.png',
+    'Midia/System.png',
+    'Midia/hypnotize.jpg',
+    'Midia/steal.jpg',
+    
+];
+
+
+const containerParaImagens = document.body; 
+const NUM_IMAGENS = 35; 
+
+
+function criarImagemDescendo(index) {
+    const imgEl = document.createElement('img');
+
+   
+    const urlDaImagem = LISTA_IMAGENS_URL[index % LISTA_IMAGENS_URL.length];
+    
+    imgEl.src = urlDaImagem;
+
+
+    imgEl.alt = 'Imagem decorativa descendo';
+    imgEl.classList.add('imagem-descendo');
+
+    const espacoEntreImagens = 100 / (NUM_IMAGENS + 1);
+    const startX = espacoEntreImagens * (index);
+    imgEl.style.left = `${startX}vw`; 
+
+    const duracao = Math.random() * 1 + 25; 
+    imgEl.style.animationDuration = `${duracao}s`;
+    
+    const delay = Math.random() * 20; 
+    imgEl.style.animationDelay = `-${delay}s`; 
+
+    containerParaImagens.appendChild(imgEl);
+}
+
+
+iniciarImagensDescendo();
+
+function iniciarImagensDescendo() {
+    for (let i = 0; i < NUM_IMAGENS; i++) {
+        criarImagemDescendo(i);
+    }
+}
