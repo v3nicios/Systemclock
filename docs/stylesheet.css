@@ -45,9 +45,8 @@
 
 #targetImage {
     width: 100%;
-    /* Ocupa toda a largura disponível */
+    
     max-width: 500px;
-    /* Não passa de 500px */
     height: auto;
     padding: 32px;
 }
@@ -120,13 +119,11 @@ h1 {
     text-align: center;
     font-feature-settings: "clig" off, "liga" off;
 
-    /* 12 - Medium */
     font-family: Montserrat;
     font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 16px;
-    /* 133.333% */
     display: inline-flex;
     padding: 10px 16px;
     align-items: flex-start;
@@ -136,7 +133,6 @@ h1 {
     border: 2px solid var(--colors-black, #18191f);
     background: var(--colors-yellow, #ffbd12);
 
-    /* Shadow / 200 */
     box-shadow: 0px 2px 0px 0px #18191f;
 }
 
@@ -186,9 +182,7 @@ h1 {
 
     #targetImage {
         width: 47%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -198,9 +192,7 @@ h1 {
         top: 36.5%;
         left: 11%;
         width: 27%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -209,9 +201,7 @@ h1 {
         top: 36.5%;
         right: 11%;
         width: 27%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -240,9 +230,7 @@ h1 {
         top: 43.5%;
         left: 0%;
         width: 35%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -251,9 +239,7 @@ h1 {
         top: 43.5%;
         right: 0%;
         width: 35%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -295,9 +281,7 @@ h1 {
 
     #targetImage {
         width: 47%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -307,9 +291,7 @@ h1 {
         top: 50.5%;
         left: 0%;
         width: 35%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -318,9 +300,7 @@ h1 {
         top: 50.5%;
         right: 0%;
         width: 35%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -367,9 +347,7 @@ h1 {
 
     #targetImage {
         width: 47%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -379,9 +357,7 @@ h1 {
         top: 50.5%;
         left: 0%;
         width: 35%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
@@ -390,9 +366,7 @@ h1 {
         top: 50.5%;
         right: 0%;
         width: 35%;
-        /* Ocupa toda a largura disponível */
         max-width: 500px;
-        /* Não passa de 500px */
         height: auto;
     }
 
